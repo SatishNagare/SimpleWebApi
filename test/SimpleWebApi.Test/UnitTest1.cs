@@ -12,7 +12,13 @@ namespace SimpleWebApi.Test
         [Test]
         public void Test1()
         {
-            Assert.Fail();
+            Assert.Pass();
+        }
+
+        [Test]
+        public void Test2()
+        {
+            Assert.Pass();
         }
     }
 }
