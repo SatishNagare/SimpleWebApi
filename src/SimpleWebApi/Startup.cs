@@ -38,7 +38,7 @@ namespace SimpleWebApi
 
             app.UseHttpsRedirection();
 
-            //app.UseRouting();
+            //app.UseRouting(); testing commit
 
             app.UseAuthorization();
 
